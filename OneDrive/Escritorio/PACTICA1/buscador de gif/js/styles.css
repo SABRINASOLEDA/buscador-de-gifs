@@ -1,0 +1,104 @@
+/* Configuración básica del cuerpo */
+body {
+    background-color: #d3c3c3;
+    color: #bb5387;
+    font-family: 'Arial', sans-serif;
+    margin: 50;
+    padding: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 80px;
+    text-align: center;
+    padding: 80px;
+    border-radius: 50px;
+    background-color: #2a2a2a;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 2.5em;
+    color: #ff79c6;
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input de búsqueda */
+.termino {
+    width: 300px;
+    height: 60px;
+    font-size: 40px;
+    padding: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    color: #f5f5f5;
+    outline: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.termino:focus {
+    background-color: #4a4a4a;
+    box-shadow: 0px 0px 12px #ff79c6;
+}
+
+/* Botón de búsqueda */
+.buscador {
+    background-color: #ff79c6;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.buscador:hover {
+    background-color: #e066a5;
+    box-shadow: 0px 6px 12px rgba(255, 121, 198, 0.5);
+}
+
+/* Resultados */
+.resultados {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo de las imágenes */
+.resultados img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resultados img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(255, 121, 198, 0.5);
+}
+
