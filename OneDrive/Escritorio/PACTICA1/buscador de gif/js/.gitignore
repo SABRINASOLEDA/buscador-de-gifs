@@ -87,3 +87,28 @@ NTUSER.DAT*
 
 # Ignorar carpetas fuera del proyecto actual
 ../../../../../
+# Ignorar carpetas comunes de Windows
+AppData/
+Contacts/
+Documents/
+Downloads/
+Favorites/
+Music/
+Videos/
+Saved Games/
+Searches/
+
+# Ignorar archivos y carpetas fuera del proyecto
+../../../
+
+# Ignorar otros archivos del sistema
+*.lnk
+*.tmp
+NTUSER.DAT*
+*.regtrans-ms
+*.blf
+desktop.ini
+
+# Ignorar carpetas específicas
+.vscode/
+node_modules/
