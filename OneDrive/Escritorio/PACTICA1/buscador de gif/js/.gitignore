@@ -1,0 +1,89 @@
+# Ignorar carpetas del sistema
+App Data/
+Documentos/
+
+# Ignorar archivos específicos
+*.log
+*.tmp
+*.DS_Store
+.argouml/
+        ../../../../.bash_history
+        ../../../../.gitconfig
+        ../../../../.lesshst
+        ../../../../.vscode/
+        ../../../../AppData/
+        ../../../../Contacts/
+        ../../../../Downloads/
+        ../../../../Favorites/
+        ../../../../IntelGraphicsProfiles/
+        ../../../../Links/
+        ../../../../Music/
+        ../../../../NCH Software Suite/
+        ../../../../NTUSER.DAT
+        ../../../../NTUSER.DAT{483459e5-ce99-11ed-af12-64497de2682c}.TM.blf
+        ../../../../NTUSER.DAT{483459e5-ce99-11ed-af12-64497de2682c}.TMContainer00000000000000000001.regtrans-ms
+        ../../../../NTUSER.DAT{483459e5-ce99-11ed-af12-64497de2682c}.TMContainer00000000000000000002.regtrans-ms
+        ../../../.849C9593-D756-4E56-8D6E-42412F2A707B
+        ../../../Documentos/
+        ../../.~lock.trabajo pte 2.odt#
+        ../../Discord.lnk
+        ../09-08-2024/
+        ../RAMAS
+        "../T.P N\302\2602 PRACTICA PROFECIONALIZANTE. CALCULADORA.odt"
+        ../ramass.txt
+        ../repo profe/
+        ../repositorio profe/
+        ../trabajo final red social/
+        ../../Postman.lnk
+        ../../REDES/
+        "../../Sin t\303\255tulo 1.odt"
+        "../../T.P N\302\2602 PRACTICA PROFECIONALIZANTE. CALCULADORA.odt"
+        ../../TRABAJO FINAL PROG 2- 2024/
+        ../../Thonny.lnk
+        ../../Visual Studio Code.lnk
+        ../../codigo.odt
+        ../../desktop.ini
+        ../../djangogirls/
+        ../../modelado guia.odt
+        ../../mysql-init.txt.txt
+        ../../node/
+        ../../nota para la comuna.odt
+        ../../programacion2/
+        ../../segunda parte TP1.odt
+        ../../tp de modelado/
+        "../../../Im\303\241genes/"
+        ../../../../Practica-tp1/
+        ../../../../Saved Games/
+        ../../../../Searches/
+        ../../../../Videos/
+        ../../../../appToDo/
+        ../../../../clase_ramas/
+        ../../../../crud-node-itsc/
+        ../../../../djangogirls/
+        ../../../../install_docker/
+        ../../../../ntuser.dat.LOG1
+        ../../../../ntuser.dat.LOG2
+        ../../../../ntuser.ini
+        ../../../../pp1-2024/
+        ../../../../practica 31_05/
+        ../../../../practica1/
+        ../../../../programacion2/
+        ../../../../pseint/
+        ../../../../rama1/
+        ../../../../sabrina1/
+        ../../../../trabajo-practico1/
+        # Ignorar carpetas del sistema y archivos temporales
+.vscode/
+AppData/
+Documents/
+Downloads/
+Music/
+Videos/
+*.log
+*.tmp
+.DS_Store
+NTUSER.DAT*
+*.lnk
+
+# Ignorar carpetas fuera del proyecto actual
+../../../../../
